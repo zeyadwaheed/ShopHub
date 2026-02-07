@@ -301,7 +301,6 @@ Serve the `build` folder via any static host (Vercel, Netlify, etc.).
 - Use a strong `SECRET_KEY`
 
 ---
----
 
 ## Future Improvements
 
