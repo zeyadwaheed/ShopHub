@@ -306,7 +306,10 @@ Serve the `build` folder via any static host (Vercel, Netlify, etc.).
 
 ISC
 
-## Author / Contact
+---
 
-- **Zeyad Waheed Fahmy**
-- [LinkedIn](www.linkedin.com/in/zeyad-waheed-871725269)
+## Author
+
+**Zeyad Waheed Fahmy, Backend - Full Stack Developer / TA**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/zeyad-waheed-871725269)
