@@ -61,12 +61,13 @@ A full-stack e-commerce platform with user authentication, admin dashboard, acce
 
 ## Project Overview
 
-**SmartMart** is a full-stack, purpose-built e-commerce application designed for accessories, electronics, and clothing. Built with modern JavaScript (ES6+), Node.js, Express, MongoDB, and React, the project follows a **modular MVC architecture**, enabling scalability, maintainability, and ease of extension.
+## Project Overview
+
+**SmartMart** is a full-stack, purpose-built e-commerce application for accessories, electronics, and clothing. Built with modern JavaScript (ES6+), Node.js, Express, MongoDB, and React, the project follows a **modular MVC architecture**, ensuring scalability, maintainability, and clear separation of concerns.
 
 - **Accessories-first catalog:** Provides dedicated endpoints and UI components for browsing and managing accessory products alongside electronics and clothing.
-- **Seeded demo data:** Includes 9 curated products (3 per category) via `server/script/productSeed.js` for easy local testing and demonstration.
-- **Reliable image handling:** Ensures all product images render correctly even if external sources are unavailable. Placeholder images are included by default; custom images can be added by editing the seed file and re-running `npm run seed:products`.
-- **RESTful API design:** All product and accessory endpoints (e.g., `/api/products`, `/api/accessories`) follow RESTful conventions with clean separation of concerns between models, controllers, and routes.
+- **Seeded demo data:** Includes sample products for easy local testing and demonstration.
+- **RESTful API design:** All product and accessory endpoints (e.g., `/api/products`, `/api/accessories`) follow RESTful conventions with clean separation between models, controllers, and routes.
 
 
 
