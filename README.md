@@ -1,4 +1,6 @@
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
+![React](https://img.shields.io/badge/React-18-blue)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-brightgreen)
 ![License](https://img.shields.io/badge/License-ISC-blue)
 
@@ -303,3 +305,8 @@ Serve the `build` folder via any static host (Vercel, Netlify, etc.).
 ## License
 
 ISC
+
+## Author / Contact
+
+- **Zeyad Waheed Fahmy**
+- [LinkedIn](https://www.linkedin.com/in/zeyadwaheed/)
