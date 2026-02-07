@@ -1,4 +1,6 @@
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
+![React](https://img.shields.io/badge/React-18-blue)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-brightgreen)
 ![License](https://img.shields.io/badge/License-ISC-blue)
 
@@ -121,8 +123,9 @@ ecommerce/
 ## Screenshots
 
 ### Customer Pages
-
+---
 **Login Page**  
+---
 ![Login Page](screenshots/login-page.png)
 
 **Sign Up Page**  
@@ -135,12 +138,14 @@ ecommerce/
 ![Validation Page](screenshots/login-validation-page.png)
 
 **Products Page**  
+---
 ![Products Page](screenshots/products-page.png)
 
 **Categorized Products**  
 ![Categorized Products](screenshots/categorized-page.png)
 
 **Add to Cart**  
+---
 ![Add To Cart](screenshots/add-to-cart-page.png)
 
 **Cart Overview**  
@@ -303,6 +308,18 @@ Serve the `build` folder via any static host (Vercel, Netlify, etc.).
 
 ---
 
-## License
+## Future Improvements
 
-ISC
+- **Wishlist / Favorites** – Allow users to save products for later.  
+- **Payment Gateway Integration** – Stripe, PayPal, etc.  
+- **Product Reviews & Ratings** – Customer feedback system.  
+- **Mobile Optimization / PWA** – Fully responsive, installable app.
+
+---
+
+
+## Author
+
+**Zeyad Waheed Fahmy, Backend - Full Stack Developer / TA**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/zeyad-waheed-871725269)
