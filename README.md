@@ -2,6 +2,8 @@
 ![React](https://img.shields.io/badge/React-18-blue)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-brightgreen)
+![ES6](https://img.shields.io/badge/ES6-Modern-yellow)
+![MVC](https://img.shields.io/badge/Architecture-MVC-orange)
 ![License](https://img.shields.io/badge/License-ISC-blue)
 
 # SmartMart — Full-Stack E-Commerce Application
@@ -21,7 +23,19 @@ A full-stack e-commerce platform with user authentication, admin dashboard, acce
 | **Validation** | Joi |
 
 ---
+## Architecture & Design
 
+- **Design Pattern:** MVC (Model-View-Controller)  
+  The backend follows MVC principles:  
+  - **Models** handle database schemas and operations (Mongoose models)  
+  - **Views** are handled in React components (frontend)  
+  - **Controllers** manage business logic and route handling
+
+- **Modern JavaScript:**  
+  - ES6+ syntax (import/export modules, arrow functions, async/await, template literals)  
+  - Fully modular structure for maintainability
+
+  ---
 ## Features
 
 ### Customer
@@ -47,12 +61,13 @@ A full-stack e-commerce platform with user authentication, admin dashboard, acce
 
 ## Project Overview
 
-SmartMart is a purpose-built e-commerce application focused on accessories, electronics, and clothing. It was created as a full-stack demo application using modern JavaScript tooling and follows a modular structure for easy extension.
+**SmartMart** is a full-stack, purpose-built e-commerce application designed for accessories, electronics, and clothing. Built with modern JavaScript (ES6+), Node.js, Express, MongoDB, and React, the project follows a **modular MVC architecture**, enabling scalability, maintainability, and ease of extension.
 
-- **Accessories-first catalog:** the app exposes accessory-focused endpoints and UI components to browse and manage accessory products alongside electronics and clothing.
-- **Seeded demo data:** `server/script/productSeed.js` seeds 9 curated products (3 per category: electronics, clothing, accessories) for local testing.
-- **Robust image handling:** some external image sources can be unreachable; the seed includes globally reachable placeholder images by default so UI always displays product imagery. To use your own images, edit `server/script/productSeed.js` and re-run `npm run seed:products`.
-- **API routes:** accessory and product routes are available under the server API (e.g. `/api/accessories`, `/api/products`) and follow RESTful conventions.
+- **Accessories-first catalog:** Provides dedicated endpoints and UI components for browsing and managing accessory products alongside electronics and clothing.
+- **Seeded demo data:** Includes 9 curated products (3 per category) via `server/script/productSeed.js` for easy local testing and demonstration.
+- **Reliable image handling:** Ensures all product images render correctly even if external sources are unavailable. Placeholder images are included by default; custom images can be added by editing the seed file and re-running `npm run seed:products`.
+- **RESTful API design:** All product and accessory endpoints (e.g., `/api/products`, `/api/accessories`) follow RESTful conventions with clean separation of concerns between models, controllers, and routes.
+
 
 
 ---
@@ -127,44 +142,49 @@ ecommerce/
 **Login Page**  
 ---
 ![Login Page](screenshots/login-page.png)
-
+---
 **Sign Up Page**  
 ![SignUp Page](screenshots/signUp%20-%20page.png)
-
+---
 **Sign Up Validation Page (Email & Password)**  
 ![Validation Page](screenshots/signup-validation.png)
-
+---
 **Login Validation Page (Email & Password)**  
 ![Validation Page](screenshots/login-validation-page.png)
-
+---
 **Products Page**  
 ---
 ![Products Page](screenshots/products-page.png)
-
+---
 **Categorized Products**  
 ![Categorized Products](screenshots/categorized-page.png)
-
+---
 **Add to Cart**  
 ---
 ![Add To Cart](screenshots/add-to-cart-page.png)
-
-**Cart Overview**  
+---
+**Cart Overview**
+---
 ![Cart Page](screenshots/cart-page.png)
-
+---
 **Checkout Attempt Without Login**  
+---
 ![Checkout Failure](screenshots/login-to-checkout-page.png)
-
+---
 **Order Checkout Successful**  
+---
 ![Order Checkout](screenshots/checkOut-success-page.png)
-
+---
 ### Admin Pages
 
 **Users Dashboard**  
+---
 ![Users Dashboard](screenshots/admin-users-dashboard.png)
-
+---
 **Orders Dashboard**  
+---
 ![Orders Dashboard](screenshots//admin-orders-dashboard.png)
-
+---
 
 ## Getting Started
 
