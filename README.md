@@ -6,7 +6,7 @@
 
 # ShopHub — Full-Stack E-Commerce Application
 
-A full-stack e-commerce platform with user authentication, admin dashboard, product catalog, and order management. Built with Node.js, Express, MongoDB, and React.
+A full-stack e-commerce platform with user authentication, admin dashboard, product catalog, and order management. Built with Node.js(ES6), Express, MongoDB, and React.
 
 ---
 
