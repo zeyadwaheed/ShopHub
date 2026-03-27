@@ -205,7 +205,7 @@ ecommerce/
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/smartmart.git
+git clone https://github.com/zeyadwaheed/smartmart.git
 cd smartmart
 ```
 
